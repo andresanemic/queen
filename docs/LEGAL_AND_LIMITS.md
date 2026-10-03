@@ -1,45 +1,53 @@
 # Legal and operational limits
 
-## Laws and standards in the project agreement
+This document describes what the Queen agreement and supplied records say. It is not legal advice, a legal review or a compliance assessment.
 
-The supplied Queen agreement cites no law or regulation. It says Queen is not claiming compliance with a norm and does not claim conformance with x402: the protocol's primary specification was not read for this project, and its settlement is simulated. This document therefore names no legal regime as a design basis and makes no compliance claim.
+## Laws, standards and review
 
-The project sources do not report a review by a competent legal professional. The repository license is marked as a working draft and says a lawyer should review it before anyone relies on it. That note is about the license; it is not a review of Queen's design or operation.
+The supplied agreement cites no law or regulation and claims compliance with none. It also makes no claim that Queen conforms to x402: the project's primary specification was not read, and settlement in the walkthrough is simulated. This repository does not name a jurisdiction or make a legal conclusion about any future use.
 
-## What the project does not claim
+The project material does not report a review of Queen by a qualified legal professional. The repository license is marked as a draft and says it should be reviewed by a lawyer before anyone relies on it. That note concerns the license. It is not a legal review of Queen's design or operation.
 
-- No legal or regulatory compliance, certification, approval, or legal effect is claimed.
-- No x402 conformance is claimed, and no real x402 settlement is shown.
-- No Stellar transaction or testnet anchor exists in the supplied evidence; the receipt anchor remains `pending`.
-- The example record does not establish who authored or preserved it. Its local hash links can be recomputed by someone who replaces the complete file.
-- No real client, budget, wallet destination, account identifier, ecosystem organization, or other real project data appears in the example; all are fictional or synthetic.
-- No production readiness or real-world acceptance is established. The current suite reports 42 passing tests of 45, with the three kernel digest pin checks failing pending re-pin.
+## What the supplied evidence does not establish
 
-## Open questions
+- No legal or regulatory compliance, certification, approval or legal effect is claimed.
+- No x402 conformance or live x402 settlement is shown.
+- No Stellar transaction or testnet anchor appears in the supplied evidence. The receipt's external anchor remains `pending`.
+- The local hash-linked record does not prove who created or preserved it. A person who can replace the whole file can recompute its hashes.
+- No real client, project, budget, wallet destination, account identifier or ecosystem organization data appears in the example. Names and values are fictional or synthetic.
+- The run does not establish market demand, acceptance by a real customer, adoption or readiness for production.
+- The current supplied suite reports 42 passing tests out of 45. Its three kernel digest checks fail pending a re-pin, so the run is not a clean suite against the installed kernel.
 
-The agreement does not provide a list of legal questions or cite a jurisdiction. It leaves practical questions outside the demonstrated path: what legal review would be required before any real deployment; what rules would apply to any real customer data or payment; and what the legal effect of a future record might be. The supplied evidence does not answer those questions. They are not claims that any particular law applies.
+## Questions left open
 
-The technical scope also remains bounded: the agreement leaves live x402 settlement, an external anchor and other kernel capabilities outside this version. The current kernel digest re-pin is pending. These are statements about the documented scope and current verification status, not legal conclusions.
+The agreement does not list legal questions or cite a jurisdiction. It does not answer what legal review a real deployment might need, what rules might apply to real customer data or payments, or what legal effect a future record might have. These are open questions, not claims that a particular rule applies.
+
+The technical scope is also limited. Live x402 settlement, a completed external anchor and other capabilities identified as later kernel work are outside the documented Queen walkthrough. The current kernel digest re-pin is still pending. These statements describe documented scope and verification status, not legal conclusions.
 
 ## Español
 
-## Leyes y estándares en el acuerdo del proyecto
+# Marco legal y límites operativos
 
-El acuerdo suministrado de Queen no cita leyes ni reglamentos. Dice que Queen no afirma cumplir una norma y no afirma conformidad con x402: para este proyecto no se leyó la especificación primaria del protocolo y su liquidación está simulada. Por eso este documento no nombra un régimen legal como fundamento de diseño ni afirma cumplimiento.
+Este documento describe lo que dicen el acuerdo de Queen y los registros suministrados. No es asesoría jurídica, revisión legal ni evaluación de cumplimiento.
 
-Las fuentes del proyecto no informan una revisión por parte de una persona competente en derecho. La licencia del repositorio se identifica como borrador de trabajo y dice que una persona abogada debe revisarla antes de que alguien se apoye en ella. Esa nota se refiere a la licencia; no es una revisión del diseño u operación de Queen.
+## Leyes, estándares y revisión
 
-## Lo que el proyecto no afirma
+El acuerdo suministrado no cita leyes ni reglamentos y no afirma cumplir ninguno. Tampoco afirma que Queen sea conforme con x402: no se leyó la especificación primaria del proyecto y la liquidación del recorrido está simulada. Este repositorio no nombra una jurisdicción ni formula una conclusión jurídica sobre usos futuros.
 
-- No afirma cumplimiento, certificación, aprobación ni efecto jurídico o regulatorio.
-- No afirma conformidad con x402 ni muestra una liquidación x402 real.
-- La evidencia suministrada no contiene transacciones de Stellar ni anclaje en testnet; el anclaje del recibo sigue en `pending`.
-- El registro de ejemplo no establece quién lo creó o conservó. Quien reemplace el archivo completo puede recalcular sus huellas locales.
-- En el ejemplo no aparecen clientes, presupuestos, destinos de billetera, identificadores de cuenta, organizaciones del ecosistema ni otros datos reales; son ficticios o sintéticos.
-- No se demuestra preparación para producción ni aceptación en el mundo real. La suite actual informa 42 pruebas aprobadas de 45, con las tres comprobaciones de digest del kernel fallidas y la nueva fijación pendiente.
+El material del proyecto no informa una revisión de Queen por parte de una persona profesional en derecho. La licencia del repositorio se identifica como borrador y dice que una persona abogada debe revisarla antes de que alguien se apoye en ella. Esa nota se refiere a la licencia. No es una revisión legal del diseño u operación de Queen.
 
-## Preguntas abiertas
+## Lo que la evidencia suministrada no establece
 
-El acuerdo no lista preguntas jurídicas ni cita una jurisdicción. Deja fuera del recorrido demostrado preguntas prácticas: qué revisión jurídica haría falta antes de cualquier despliegue real; qué reglas aplicarían a datos de clientes o pagos reales; y qué efecto jurídico podría tener un registro futuro. La evidencia suministrada no responde esas preguntas. No son afirmaciones de que aplique una ley determinada.
+- No se afirma cumplimiento jurídico o regulatorio, certificación, aprobación ni efecto legal.
+- No se muestra conformidad con x402 ni liquidación x402 en vivo.
+- La evidencia suministrada no contiene una transacción ni un anclaje en Stellar testnet. El anclaje externo del recibo permanece en `pending`.
+- El registro local de huellas encadenadas no demuestra quién lo creó o conservó. Una persona que pueda reemplazar el archivo completo puede recalcular sus huellas.
+- El ejemplo no contiene datos de clientes, proyectos, presupuestos, destinos de billetera, identificadores de cuenta u organizaciones del ecosistema reales. Los nombres y valores son ficticios o sintéticos.
+- La ejecución no establece demanda de mercado, aceptación por un cliente real, adopción ni preparación para producción.
+- La suite suministrada actualmente informa 42 pruebas aprobadas de 45. Sus tres comprobaciones de digest del kernel fallan mientras se completa una nueva fijación, así que no es una suite limpia frente al kernel instalado.
 
-El alcance técnico también permanece acotado: el acuerdo deja fuera de esta versión la liquidación x402 en vivo, un anclaje externo y otras capacidades del kernel. La nueva fijación del digest del kernel está pendiente. Son afirmaciones sobre el alcance documentado y el estado actual de verificación, no conclusiones jurídicas.
+## Preguntas pendientes
+
+El acuerdo no enumera preguntas legales ni cita una jurisdicción. No responde qué revisión legal podría requerir un despliegue real, qué reglas podrían regir datos o pagos de clientes reales ni qué efecto jurídico podría tener un registro futuro. Son preguntas abiertas, no afirmaciones de que aplique una regla determinada.
+
+El alcance técnico también es limitado. La liquidación x402 en vivo, un anclaje externo completado y otras capacidades identificadas como trabajo posterior del kernel quedan fuera del recorrido documentado de Queen. La nueva fijación del digest del kernel sigue pendiente. Estas afirmaciones describen el alcance documentado y el estado de verificación, no conclusiones jurídicas.
