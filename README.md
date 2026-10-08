@@ -8,7 +8,7 @@
   <a href="./docs/EVIDENCE.md"><img src="https://img.shields.io/badge/suite-42_of_45-D7B698?style=for-the-badge&labelColor=07111A" alt="Suite: 42 of 45 pass today"></a>
   <a href="#english"><img src="https://img.shields.io/badge/agreement-written_before_code-E0C170?style=for-the-badge&labelColor=07111A" alt="Agreement written before code"></a>
   <a href="https://github.com/andresanemic/vespi"><img src="https://img.shields.io/badge/built_with-Vespi_and_Lore_Plugin-E0C170?style=for-the-badge&labelColor=07111A" alt="Built with Vespi and Lore Plugin"></a>
-  <a href="https://github.com/andresanemic/vespi/tree/ed559e83c976dd6e6a379a5510db776206f670b4"><img src="https://img.shields.io/badge/kernel-0.1.5_candidate-ed559e8?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.5 candidate (commit ed559e8)"></a>
+  <a href="https://github.com/andresanemic/vespi/tree/ed559e83c976dd6e6a379a5510db776206f670b4"><img src="https://img.shields.io/badge/kernel-0.1.5_release-ed559e8?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.5 release (commit ed559e8)"></a>
 </p>
 
 <p align="center"><b>A proposal should be answerable to the conversation and authority that produced it.</b></p>
@@ -131,7 +131,7 @@ ceiling · asset · destination             scope · conversation · answer
 
 The supplied run, rechecked on 2026-10-03, reports 42 passing tests out of 45. Passing cases cover the complete request-to-proposal route, receipts and their declared coverage, simulated-payment disclosure, the pending external anchor, separate verification, local-chain auditing, reconstruction from receipts, rejection of an unauthorized speaker, the hard ceiling and idempotent formulation. The five adversarial RED cases and one control case were written and observed before implementation. Their names and scope are listed in [Evidence](./docs/EVIDENCE.md).
 
-The three current failures are kernel digest pin checks. `continuity.js` no longer matches the digest Queen fixed, Queen's digest differs from the kit's declaration, and the installed `opencode` copy is not the pinned `continuity.js`. This is why the result is 42/45 today: the functional cases pass in the supplied capture, while the integrity checks correctly flag that the vendored kernel moved. Queen's re-pin is pending: Queen now targets kernel **0.1.5 candidate** (commit `ed559e8`); the re-pinned digest table will be committed once the kernel release is confirmed. The nine coded projects' records report passing results against the 2026-09-29 cut `54c20c7`; that is not today's installed kernel result.
+The three current failures are kernel digest pin checks. `continuity.js` no longer matches the digest Queen fixed, Queen's digest differs from the kit's declaration, and the installed `opencode` copy is not the pinned `continuity.js`. This is why the result is 42/45 today: the functional cases pass in the supplied capture, while the integrity checks correctly flag that the vendored kernel moved. Queen's re-pin is pending: Queen now targets kernel **0.1.5 release** (commit `ed559e8`); the digest table remains pending until a deliberate project re-pin and fresh tests are completed. The nine coded projects' records report passing results against the 2026-09-29 cut `54c20c7`; that is not today's installed kernel result.
 
 ### Queen, Vespi and Lore Plugin
 
