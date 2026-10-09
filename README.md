@@ -165,9 +165,6 @@ Read the walkthrough, then compare the test record and limits with the project a
 
 <a id="espanol"></a>
 
-<p align="center"><b>Queen</b> — una propuesta de presupuesto suele ser confusa: quién pidió, quién podía responder, qué cubre el precio.<br>
-El encargo y los límites aprobados viajan con la propuesta. Evidencia: 45/45 pruebas. Clientes y campañas ficticios.</p>
-
 **Queen formula un presupuesto solo después de que el proyecto contratante haya respondido en una conversación con recibo, y únicamente dentro de la autoridad que concedió una persona.**
 
 > **La unidad es la conversación con recibo: sin una conversación abierta y leída con el proyecto que hizo el encargo, no hay propuesta.**
