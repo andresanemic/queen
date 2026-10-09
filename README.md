@@ -1,6 +1,8 @@
-[![Queen: campaign proposals within granted authority](./assets/cover.png)](./assets/cover.png)
+<p align="center">
+  <a href="./assets/cover.png"><img src="./assets/cover.png" alt="Queen: campaign proposals within granted authority" width="100%"></a>
+</p>
 
-# Queen
+<h1 align="center">Queen</h1>
 
 <p align="center">
   <a href="#english"><img src="https://img.shields.io/badge/status-first_version-D7B698?style=for-the-badge&labelColor=07111A" alt="Status: first version"></a>
@@ -17,6 +19,9 @@
 
 <p align="center"><b>Queen</b> — a budget proposal is often unclear: who asked, who could answer, what the price covers.<br>
 The brief and the approved limits travel with the proposal. Evidence: 45/45 tests. Fictional clients and campaigns.</p>
+
+<p align="center"><b>We’re applying to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
+<p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./CODE_NOT_INCLUDED.md">Source and review terms</a>.<br>This public snapshot contains documentation and evidence, not runnable source.</p>
 
 ---
 
@@ -36,13 +41,6 @@ Queen is a fictional marketing-agency scenario for a narrower coordination probl
 A request for a budget can arrive with missing detail and no durable trail. If an agent guesses, the proposal may describe work nobody asked for. If a neighboring project or observer answers, their words may be mistaken for the commissioning project's authority. If the same request is formulated twice, a second price can appear beside the first. These are small handoffs with consequential ambiguity: who asked, who was allowed to answer, what the price covers, and who set the ceiling can disappear between a conversation and a quote.
 
 Queen makes that handoff readable. A third party can follow the request, the conversation, a rejected answer, the accepted answer, the ceiling check, and the receipt in a local record. The point is not to make a marketing decision for anyone. It is to leave enough context around a proposal for another person to see why it exists and where the authority ends.
-
-### If you are judging Find Your Way or Meridian, start here
-
-- Read the project foundation and its walkthrough. Start with [How it works](./docs/HOW_IT_WORKS.md).
-- Open the test record. See [Evidence](./docs/EVIDENCE.md).
-- Read the legal and verification limits. See [Legal and limits](./docs/LEGAL_AND_LIMITS.md).
-- Review the publication conditions. See [Code not included](./CODE_NOT_INCLUDED.md) and the [review-only license](./LICENSE).
 
 ### In one minute
 
@@ -164,6 +162,8 @@ Read the walkthrough, then compare the test record and limits with the project a
 
 <details>
 <summary><b>Leer en español</b></summary>
+
+<p align="center"><b>Postulamos a la hackatón Find Your Way y planeamos participar en Meridian.</b></p>
 
 <a id="espanol"></a>
 
