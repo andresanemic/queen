@@ -15,6 +15,11 @@
 
 <p align="center">English and Spanish versions follow. Queen is a documented project agreement, walkthrough and evidence record. This public repository does not contain source code.</p>
 
+<p align="center"><b>Queen</b> — a budget proposal is often unclear: who asked, who could answer, what the price covers.<br>
+The brief and the approved limits travel with the proposal. Evidence: 45/45 tests. Fictional clients and campaigns.<br>
+<b>Queen</b> — una propuesta de presupuesto suele ser confusa: quién pidió, quién podía responder, qué cubre el precio.<br>
+El encargo y los límites aprobados viajan con la propuesta. Evidencia: 45/45 pruebas. Clientes y campañas ficticios.</p>
+
 ---
 
 <details>
