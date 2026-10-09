@@ -40,7 +40,7 @@ The `verified` label applies to the receipt checks the verifier recalculated aga
 
 When source is available under the review-only license, run `npm test` from the project directory and compare the outcomes with the captured test names above. The suite must report the same count (45 tests, 45 pass, none skipped), with `docs/suite-2026-10-09.txt` as the reference.
 
-## Español
+<a id="espanol"></a>
 
 # Evidencia y estado actual de las pruebas
 

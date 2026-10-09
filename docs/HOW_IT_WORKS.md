@@ -64,7 +64,7 @@ Delegation narrows authority: a derived scope and budget must be subsets of the 
 
 The JSONL record uses a closed schema, so an undeclared field is rejected. The hash chain lets a reader detect a changed line in the file as presented. It is a local integrity check, not a signature from an outside institution and not durable storage by itself. Someone able to replace the complete file can recompute the chain. The receipt's declared coverage also matters: an external anchor stays in `notCovered` and its status remains `pending`.
 
-## Español
+<a id="espanol"></a>
 
 # Cómo funciona Queen
 

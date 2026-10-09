@@ -24,7 +24,7 @@ The agreement does not list legal questions or cite a jurisdiction. It does not 
 
 The technical scope is also limited. Live x402 settlement, a completed external anchor and other capabilities identified as later kernel work are outside the documented Queen walkthrough. The kernel digest re-pin to Vespi 0.1.5 is done. These statements describe documented scope and verification status, not legal conclusions.
 
-## Español
+<a id="espanol"></a>
 
 # Marco legal y límites operativos
 
