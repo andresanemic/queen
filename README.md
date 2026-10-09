@@ -163,8 +163,6 @@ Read the walkthrough, then compare the test record and limits with the project a
 <details>
 <summary><b>Leer en español</b></summary>
 
-<p align="center"><b>Postulamos a la hackatón Find Your Way y planeamos participar en Meridian.</b></p>
-
 <a id="espanol"></a>
 
 <p align="center"><b>Queen</b> — una propuesta de presupuesto suele ser confusa: quién pidió, quién podía responder, qué cubre el precio.<br>
