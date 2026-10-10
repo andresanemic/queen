@@ -16,8 +16,6 @@
 <p align="center"><b>Queen</b> — a budget proposal is often unclear: who asked, who could answer, what the price covers.<br>
 The brief and the approved limits travel with the proposal. Evidence: 45/45 tests. Fictional clients and campaigns.</p>
 
-<p align="center"><a href="#english"><b>Read in English</b></a> · <a href="#espanol"><b>Leer en español</b></a></p>
-
 <p align="center"><b>We’re applying to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
 <p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./CODE_NOT_INCLUDED.md">Source and review terms</a>.<br>This public snapshot contains documentation and evidence, not runnable source.</p>
 
