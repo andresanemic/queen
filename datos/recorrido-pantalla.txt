@@ -1,0 +1,101 @@
+﻿
+==============================================================================
+  QUEEN — la agencia que conversa antes de cotizar
+==============================================================================
+Nucleo: commit 54c20c7, copia vendorizada del kit — la misma que los tres hosts tienen.
+         version en el arbol del kit: 2.4.8 | version instalada: 2.4.9-rc.5  (las etiquetas difieren; los cinco digest NO: son identicos)
+Registro: C:\Claude\founder\proyectos\queen\datos\registro.jsonl
+
+------------------------------------------------------------------------------
+1. LLEGA EL ENCARGO
+------------------------------------------------------------------------------
+  De:      proyecto-corcheta
+  Pide:    presupuesto para una campana de lanzamiento de tres piezas
+  Mandato: 80000 USD de techo,
+           destino billetera-de-ejemplo, quien pausa: persona-que-otorga
+
+------------------------------------------------------------------------------
+2. LO QUE PASÓ, PASO A PASO (lo que un tercero lee en el registro)
+------------------------------------------------------------------------------
+   1. encargo_recibido       proyecto-corcheta: presupuesto para una campana de lanzamiento de tres piezas
+   2. conversacion_abierta   con proyecto-corcheta
+   3. lectura_confirmada     lee el encargo
+   4. pregunta               a proyecto-corcheta: que piezas necesita y cuantas
+   5. pregunta               a proyecto-corcheta: para cuando las necesita y con que destino de cobro
+   6. mensaje_de_tercero     observador-externo: habla en la conversacion pero no es la contraparte
+   7. respuesta_rechazada    observador-externo: observador-externo no es la contraparte del encargo enc-corcheta-001
+   8. respuesta_aceptada     proyecto-corcheta firma b1f10aaeeadd...
+   9. propuesta_formulada    70000 USD
+  10. pago_simulado          70000 USD -> billetera-de-ejemplo (simulado)
+  11. verificacion           por verificador-externo: 4 ok, 3 no
+  12. recibo                 7246db9a5d6c...
+  13. cierre                 completa
+
+------------------------------------------------------------------------------
+3. LA PROPUESTA
+------------------------------------------------------------------------------
+  Encargo:   enc-corcheta-001
+  A:         proyecto-corcheta
+  Piezas:    1 x concepto, 1 x produccion
+  Total:     70000 USD   (techo del mandato: 80000)
+  Destino:   billetera-de-ejemplo
+  Huella:    df9bd268d19a296ee2085a02c384e263...
+
+------------------------------------------------------------------------------
+4. LA PUERTA, ANTES DE PAGAR
+------------------------------------------------------------------------------
+  Costo:            70000 USD
+  Destino:          billetera-de-ejemplo
+  Lo publico:       apagado
+  Salida:           cambia el techo del mandato o cancela el encargo enc-corcheta-001
+  Autorizado por:   persona-que-otorga
+  Asentamiento:     SIMULADO (no hay red, no hay hash, no hay explorador)
+
+------------------------------------------------------------------------------
+5. EL RECIBO
+------------------------------------------------------------------------------
+  Estado:       verified
+  Capacidad:    pago-x402-simulado
+  Firma:        7246db9a5d6ca7654dedb6f2479d3a41...
+  Anclaje:      pending (stellar:testnet)
+  Verifico:     el verificador externo, sobre la evidencia
+  Cubierto:     el gasto declarado cabe en el techo del mandato | el efecto quedo en el destino que declara el mandato | quien pago es la contraparte del encargo | el pago se declaro simulado y no como pago real
+  NO cubierto:  x402 settlement on a live network | tx hash on-chain in a public explorer | pago real a un tercero real | external anchor
+
+------------------------------------------------------------------------------
+6. LA MISMA PROPUESTA, OTRA VEZ
+------------------------------------------------------------------------------
+  Idempotente:  si
+  Misma huella: si
+  Pagos:        1 (uno solo, aunque se cerrara dos veces)
+  Lineas de propuesta en el registro: 1
+
+  Cadena del registro: entera (13 lineas).
+
+==============================================================================
+  LO QUE ESTO NO DEMUESTRA
+==============================================================================
+  Que haya pasado un pago. El pago es SIMULADO: la capa de gasto y la puerta son reales,
+  el asentamiento no existe. No hay red, no hay hash de transaccion, no hay explorador donde
+  buscarlo, y el anclaje del recibo queda en "pending" a proposito.
+  
+  Que x402 haga lo que x402 hace. El texto primario del protocolo NO se leyo en esta tanda:
+  este proyecto no nombra la norma, no cita su especificacion y no afirma conformidad. Lo que
+  se demuestra es que el gasto se declara y se recibe dentro de la autoridad.
+  
+  Que haya adopcion, certificacion, ni un tercero real. La contraparte es de fantasia, las
+  cifras son de ejemplo y no hay institucion, proyecto ni persona detras de este recorrido.
+  
+  Que la cadena del registro acredite autor. Detecta ediciones locales: cualquiera que pueda
+  reescribir el archivo puede rehacer la cadena entera. La autenticidad le pertenece a quien
+  lo guarda y lo entrega, no al registro.
+  
+  Que un tercero real quiera contratar esto. No se probo con ninguna persona fuera de esta
+  corrida, y la vara esa —que alguien sin experiencia se emocione y lo recomiende— sigue en
+  reposo desde el 2026-09-28.
+
+  Lo que SI demuestra: 13 pasos escritos con huella encadenada,
+  un presupuesto que no se formulo sin conversacion, sobre el techo, ni con el sello de
+  una contraparte sin alcance, y un recibo que se verifica y que dice lo que no cubrio.
+==============================================================================
+

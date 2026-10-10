@@ -1,0 +1,12 @@
+{
+  "name": "queen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Queen — la agencia que conversa con el proyecto que la contrata, a traves de Vespi, para formular presupuesto o propuesta con recibo. Proyecto 1 de los diez de la decision 30 del acuerdo de Vespi.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "recorrido": "node src/cli.js recorrido"
+  },
+  "license": "UNLICENSED"
+}

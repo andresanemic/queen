@@ -1,0 +1,15 @@
+﻿
+==============================================================================
+  QUEEN — un encargo sin conversacion abierta
+==============================================================================
+
+  De:   proyecto-corcheta
+  Pide: un presupuesto. Y nada mas.
+
+  Estado:    bloqueado
+  Propuesta: ninguna
+  Recibo:    blocked, digest fb49030782e0d6b9130badd39b0c4c8e...
+  Vuelve a:  proyecto-corcheta, persona-que-otorga
+
+  Salida: no hay conversacion abierta con la contraparte: abre la conversacion y pide lo que falta antes de formular
+

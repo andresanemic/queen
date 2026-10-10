@@ -1,0 +1,20 @@
+﻿
+==============================================================================
+  QUEEN — de que nucleo salio esto
+==============================================================================
+
+  Commit del corte:      54c20c7
+  Version en el arbol:   2.4.8
+  Version instalada:     2.4.9-rc.5
+  Etiquetas coinciden:   NO — y los cinco digest si: los bytes son los mismos
+
+  Huella de los cinco modulos (cuerpo, sin el encabezado de procedencia):
+    authority.js     56ce8adf6f414fbbb419d64ea9f1f498d7dc4d798d5b20a318ed84336f0c9cc2
+    continuity.js    ceba712aa3d9300a83382b90dd5ab97bb5809fe1a3f779c99f0984bf6305e73e
+    delegation.js    677249e761f29091fc57920345e5019e8cd796bdb4ffe75c7a371ce1db551ab3
+    operation.js     20a465e1f583755467c3fe579e69c90676cdff0e47f5d3f2fc676a4a198b4ee6
+    receipt.js       adc5cabcf31d5ca77ab5fbef904287c3a1662a98c6b3e0ddf9c4265d4bfad8a6
+
+  La misma huella se comprueba en los tres hosts en test/kernel.test.js. Si el corte
+  se mueve, la suite se pone roja con un mensaje que pide repinar.
+

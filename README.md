@@ -17,7 +17,7 @@
 The brief and the approved limits travel with the proposal. Evidence: 45/45 tests. Fictional clients and campaigns.</p>
 
 <p align="center"><b>We’re applying to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
-<p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./CODE_NOT_INCLUDED.md">Source and review terms</a>.<br>This public snapshot contains documentation and evidence, not runnable source.</p>
+<p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./LICENSE">Review-only license</a>.<br>The source is in this repository: run <code>npm test</code> on Node 24.</p>
 
 ---
 
@@ -142,7 +142,7 @@ The payment settlement is simulated. There is no network call, real x402 settlem
 
 ### How to review this project
 
-Read the walkthrough, then compare the test record and limits with the project agreement when the source becomes available. This repository currently contains the agreement, documentation and evidence, not source code. The source is scheduled to open during the judges' review period under the review-only license, which permits reading and cloning for evaluation. At that point, run the documented `npm test` from the project directory and compare its output with [Evidence](./docs/EVIDENCE.md). The re-pin is done, so a reviewer can expect a clean run against the vendored kernel and compare it with the reference `docs/suite-2026-10-09.txt`.
+Read the walkthrough, then compare the test record and limits with the project agreement. The source is in this repository under the review-only license, which permits reading and cloning for evaluation. Run `npm test` on Node 24 from the project root and compare its output with [Evidence](./docs/EVIDENCE.md). The kernel re-pin is done, so a reviewer can expect a clean run against the vendored kernel and compare it with the reference `docs/suite-2026-10-09.txt`.
 
 ### Author
 
@@ -152,7 +152,7 @@ Read the walkthrough, then compare the test record and limits with the project a
 
 ---
 
-[How it works](./docs/HOW_IT_WORKS.md) · [Evidence](./docs/EVIDENCE.md) · [Legal and limits](./docs/LEGAL_AND_LIMITS.md) · [Code not included](./CODE_NOT_INCLUDED.md) · [Review-only license](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
+[How it works](./docs/HOW_IT_WORKS.md) · [Evidence](./docs/EVIDENCE.md) · [Legal and limits](./docs/LEGAL_AND_LIMITS.md) · [Review-only license](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
 
 </details>
 
@@ -178,7 +178,7 @@ Queen deja ese traspaso legible. Una tercera persona puede seguir el encargo, la
 - Lee la base del proyecto y su recorrido. Empieza por [Cómo funciona](./docs/HOW_IT_WORKS.md).
 - Abre el registro de pruebas. Consulta [Evidencia](./docs/EVIDENCE.md).
 - Lee los límites jurídicos y de verificación. Consulta [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md).
-- Revisa las condiciones de publicación. Consulta [Código no incluido](./CODE_NOT_INCLUDED.md) y la [licencia de solo revisión](./LICENSE).
+- Lee los términos en la [licencia de solo revisión](./LICENSE) y ejecuta `npm test` (Node 24).
 
 ### En un minuto
 
@@ -286,7 +286,7 @@ La liquidación del pago es simulada. No hay llamada de red, liquidación x402 r
 
 ### Cómo revisar este proyecto
 
-Lee el recorrido y compara después el registro de pruebas y los límites con el acuerdo cuando el código esté disponible. Este repositorio contiene por ahora el acuerdo, la documentación y la evidencia, no el código fuente. Está previsto que el código se abra durante el periodo de revisión de los jueces bajo la licencia de solo revisión, que permite leerlo y clonarlo para evaluarlo. Entonces ejecuta el `npm test` documentado desde el directorio del proyecto y compara su salida con [Evidencia](./docs/EVIDENCE.md). La nueva fijación ya está hecha, así que quien revise puede esperar una ejecución limpia frente al kernel vendorizado y compararla con la referencia `docs/suite-2026-10-09.txt`.
+Lee el recorrido y compara después el registro de pruebas y los límites con el acuerdo. El código está en este repositorio bajo la licencia de solo revisión, que permite leerlo y clonarlo para evaluarlo. Ejecuta `npm test` con Node 24 desde la raíz del proyecto y compara su salida con [Evidencia](./docs/EVIDENCE.md). La nueva fijación del kernel ya está hecha, así que quien revise puede esperar una ejecución limpia frente al kernel vendorizado y compararla con la referencia `docs/suite-2026-10-09.txt`.
 
 ### Autor
 
@@ -296,6 +296,6 @@ Lee el recorrido y compara después el registro de pruebas y los límites con el
 
 ---
 
-[Cómo funciona](./docs/HOW_IT_WORKS.md) · [Evidencia](./docs/EVIDENCE.md) · [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md) · [Código no incluido](./CODE_NOT_INCLUDED.md) · [Licencia de solo revisión](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
+[Cómo funciona](./docs/HOW_IT_WORKS.md) · [Evidencia](./docs/EVIDENCE.md) · [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md) · [Licencia de solo revisión](./LICENSE) · [Vespi](https://github.com/andresanemic/vespi) · [Lore Plugin](https://github.com/andresanemic/lore-plugin)
 
 </details>

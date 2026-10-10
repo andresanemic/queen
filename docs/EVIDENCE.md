@@ -4,7 +4,7 @@
 
 The project material includes a captured terminal walkthrough and JSONL records, a test run captured on 2026-10-09 (`docs/suite-2026-10-09.txt`), which supersedes the 2026-10-03 capture that was red, and a RED log dated 2026-09-29 that predates the implementation. The walkthrough uses fictional entities and synthetic values. It is not a record of a real client, payment, Stellar transaction or external service.
 
-The public repository does not include source code, so the suite cannot be rerun from this repository alone. The test names and outcomes below are reproduced from the supplied test record; they are not a fresh run performed while editing this documentation. Four entries appear as `<anonymous>` in the capture; their passing outcome is counted in the summary.
+The source code is in this repository under the review-only license, so the suite can be rerun from it with `npm test`. The test names and outcomes below are reproduced from the supplied test record; they are not a fresh run performed while editing this documentation. Four entries appear as `<anonymous>` in the capture; their passing outcome is counted in the summary.
 
 ## Current suite: 45 pass
 
@@ -36,9 +36,9 @@ The screen capture follows `proyecto-corcheta` from request to receipt. It repor
 
 The `verified` label applies to the receipt checks the verifier recalculated against the local evidence. The same receipt lists live settlement, a public on-chain transaction hash, payment to a real third party and an external anchor as not covered. No actual payment or Stellar testnet transaction is claimed.
 
-## How to review when source opens
+## How to review
 
-When source is available under the review-only license, run `npm test` from the project directory and compare the outcomes with the captured test names above. The suite must report the same count (45 tests, 45 pass, none skipped), with `docs/suite-2026-10-09.txt` as the reference.
+The source is in this repository under the review-only license (reading and cloning for evaluation; no modification or redistribution). Run `npm test` on Node 24 from the project root and compare the outcomes with the captured test names above. The suite must report the same count (45 tests, 45 pass, none skipped), with `docs/suite-2026-10-09.txt` as the reference.
 
 <a id="espanol"></a>
 
@@ -48,7 +48,7 @@ When source is available under the review-only license, run `npm test` from the 
 
 El material del proyecto incluye una pantalla de terminal y registros JSONL capturados, una ejecución de pruebas capturada el 2026-10-09 (`docs/suite-2026-10-09.txt`), que sustituye a la captura del 2026-10-03 que estaba en rojo, y un registro RED del 2026-09-29 anterior a la implementación. El recorrido usa entidades ficticias y valores sintéticos. No es un registro de un cliente, pago, transacción de Stellar o servicio externo real.
 
-El repositorio público no incluye el código fuente, así que no se puede volver a ejecutar la suite desde este repositorio. Los nombres y resultados de las pruebas que siguen se transcriben del registro suministrado; no son una ejecución nueva hecha mientras se editaba esta documentación. Cuatro entradas aparecen como `<anonymous>` en la captura; su resultado aprobado está contado en el resumen.
+El código fuente está en este repositorio bajo la licencia de solo revisión, así que la suite se puede volver a ejecutar desde él con `npm test`. Los nombres y resultados de las pruebas que siguen se transcriben del registro suministrado; no son una ejecución nueva hecha mientras se editaba esta documentación. Cuatro entradas aparecen como `<anonymous>` en la captura; su resultado aprobado está contado en el resumen.
 
 ## Suite actual: 45 aprobadas
 
@@ -80,6 +80,6 @@ La pantalla capturada sigue a `proyecto-corcheta` desde el encargo hasta el reci
 
 La etiqueta `verified` se aplica a las comprobaciones del recibo que el verificador recalculó contra la evidencia local. El mismo recibo enumera como no cubiertos la liquidación en vivo, un hash público en cadena, el pago a un tercero real y el anclaje externo. No se afirma que haya ocurrido un pago ni una transacción en Stellar testnet.
 
-## Cómo revisar cuando se abra el código
+## Cómo revisar
 
-Cuando el código esté disponible bajo la licencia de solo revisión, ejecuta `npm test` desde el directorio del proyecto y compara los resultados con los nombres de prueba anteriores. La suite debe informar el mismo conteo (45 pruebas, 45 aprobadas, ninguna omitida), con `docs/suite-2026-10-09.txt` como referencia.
+El código está en este repositorio bajo la licencia de solo revisión (permite leer y clonar para evaluar, no modificar ni redistribuir). Ejecuta `npm test` con Node 24 desde la raíz del proyecto y compara los resultados con los nombres de prueba anteriores. La suite debe informar el mismo conteo (45 pruebas, 45 aprobadas, ninguna omitida), con `docs/suite-2026-10-09.txt` como referencia.
