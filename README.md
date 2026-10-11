@@ -10,7 +10,7 @@
   <a href="./docs/EVIDENCE.md"><img src="https://img.shields.io/badge/suite-45_of_45_pass-D7B698?style=for-the-badge&labelColor=07111A" alt="Suite: 45 of 45 tests pass"></a> <b>It worked.</b>
   <a href="#english"><img src="https://img.shields.io/badge/agreement-written_before_code-E0C170?style=for-the-badge&labelColor=07111A" alt="Agreement written before code"></a>
   <a href="https://github.com/andresanemic/vespi"><img src="https://img.shields.io/badge/built_with-Vespi_%C2%B7_Lore_Plugin-E0C170?style=for-the-badge&labelColor=07111A" alt="Built with Vespi and Lore Plugin"></a>
-  <a href="https://github.com/andresanemic/vespi/tree/98a33280fb35cb1fc7feda483e7dd57b97362c49"><img src="https://img.shields.io/badge/kernel-0.1.6_pin-98a3328?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.6 source pin (commit 98a3328)"></a>
+  <a href="https://github.com/andresanemic/vespi/tree/39d45733839d0a05f60248fc6e5b81c892c464f8"><img src="https://img.shields.io/badge/kernel-0.1.6_pin-39d4573?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.6 source pin (commit 39d4573)"></a>
 </p>
 
 <p align="center"><b>Queen</b> — a budget proposal is often unclear: who asked, who could answer, what the price covers.<br>
@@ -137,9 +137,9 @@ ceiling · asset · destination             scope · conversation · answer
 
 ### Evidence you can open
 
-The supplied run of 2026-10-11 reports 45 tests, pass 45, fail 0, skipped 0, on Node v24.15.0, run in a clean clone with empty HOME and no network. Passing cases cover the complete request-to-proposal route, receipts and their declared coverage, simulated-payment disclosure, the pending external anchor, separate verification, local-chain auditing, reconstruction from receipts, rejection of an unauthorized speaker, the hard ceiling and idempotent formulation. The five adversarial RED cases and one control case were written and observed before implementation. Their names and scope are listed in [Evidence](./docs/EVIDENCE.md). The 2026-10-03 capture was red because the project was pinned to an old kernel cut (0.1.3); that re-pin to Vespi 0.1.6 (commit `98a3328`) is done and verified in the new capture.
+The supplied run of 2026-10-11 reports 45 tests, pass 45, fail 0, skipped 0, on Node v24.15.0, run in a clean clone with empty HOME and no network. Passing cases cover the complete request-to-proposal route, receipts and their declared coverage, simulated-payment disclosure, the pending external anchor, separate verification, local-chain auditing, reconstruction from receipts, rejection of an unauthorized speaker, the hard ceiling and idempotent formulation. The five adversarial RED cases and one control case were written and observed before implementation. Their names and scope are listed in [Evidence](./docs/EVIDENCE.md). The 2026-10-03 capture was red because the project was pinned to an old kernel cut (0.1.3); that re-pin to Vespi 0.1.6 (commit `39d4573`) is done and verified in the new capture.
 
-The kernel checks pass in the new capture: the suite verifies the copy vendored in `vendor/vespi-kernel` against its SOURCE.md (per-module digest and commit) for Vespi 0.1.6 (`98a33280fb35cb1fc7feda483e7dd57b97362c49`).
+The kernel checks pass in the new capture: the suite verifies the copy vendored in `vendor/vespi-kernel` against its SOURCE.md (per-module digest and commit) for Vespi 0.1.6 (`39d45733839d0a05f60248fc6e5b81c892c464f8`).
 
 ### Queen, Vespi and Lore Plugin
 
@@ -286,9 +286,9 @@ techo · activo · destino                   alcance · conversación · respues
 
 ### Evidencia que puedes abrir
 
-La ejecución suministrada del 2026-10-11 informa 45 pruebas, 45 aprobadas, 0 fallan, 0 omitidas, en Node v24.15.0, corrida en un clon limpio con HOME vacío y sin red. Los casos aprobados cubren el recorrido completo desde el encargo hasta la propuesta, los recibos y su cobertura declarada, la declaración del pago simulado, el anclaje externo en pending, la verificación separada, la auditoría de la cadena local, la reconstrucción desde recibos, el rechazo de una voz no autorizada, el techo duro y la formulación idempotente. Los cinco casos adversariales RED y un caso de control se escribieron y observaron antes de la implementación. [Evidencia](./docs/EVIDENCE.md) enumera sus nombres y alcance. La captura del 2026-10-03 estaba en rojo porque el proyecto apuntaba a un corte viejo del kernel (0.1.3); esa nueva fijación a Vespi 0.1.6 (commit `98a3328`) ya está hecha y verificada en la captura nueva.
+La ejecución suministrada del 2026-10-11 informa 45 pruebas, 45 aprobadas, 0 fallan, 0 omitidas, en Node v24.15.0, corrida en un clon limpio con HOME vacío y sin red. Los casos aprobados cubren el recorrido completo desde el encargo hasta la propuesta, los recibos y su cobertura declarada, la declaración del pago simulado, el anclaje externo en pending, la verificación separada, la auditoría de la cadena local, la reconstrucción desde recibos, el rechazo de una voz no autorizada, el techo duro y la formulación idempotente. Los cinco casos adversariales RED y un caso de control se escribieron y observaron antes de la implementación. [Evidencia](./docs/EVIDENCE.md) enumera sus nombres y alcance. La captura del 2026-10-03 estaba en rojo porque el proyecto apuntaba a un corte viejo del kernel (0.1.3); esa nueva fijación a Vespi 0.1.6 (commit `39d4573`) ya está hecha y verificada en la captura nueva.
 
-Los controles del kernel pasan en la captura nueva: la suite verifica la copia vendorizada en `vendor/vespi-kernel` contra su SOURCE.md (digest por módulo y commit) para Vespi 0.1.6 (`98a33280fb35cb1fc7feda483e7dd57b97362c49`).
+Los controles del kernel pasan en la captura nueva: la suite verifica la copia vendorizada en `vendor/vespi-kernel` contra su SOURCE.md (digest por módulo y commit) para Vespi 0.1.6 (`39d45733839d0a05f60248fc6e5b81c892c464f8`).
 
 ### Queen, Vespi y Lore Plugin
 
