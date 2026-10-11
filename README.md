@@ -7,10 +7,10 @@
 <p align="center">
   <a href="#english"><img src="https://img.shields.io/badge/status-first_version-D7B698?style=for-the-badge&labelColor=07111A" alt="Status: first version"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-review--only-D7B698?style=for-the-badge&labelColor=07111A" alt="License: review only"></a>
-  <a href="./docs/EVIDENCE.md"><img src="https://img.shields.io/badge/suite-45_of_45_pass-D7B698?style=for-the-badge&labelColor=07111A" alt="Suite: 45 of 45 tests pass"></a>
+  <a href="./docs/EVIDENCE.md"><img src="https://img.shields.io/badge/suite-45_of_45_pass-D7B698?style=for-the-badge&labelColor=07111A" alt="Suite: 45 of 45 tests pass"></a> <b>It worked.</b>
   <a href="#english"><img src="https://img.shields.io/badge/agreement-written_before_code-E0C170?style=for-the-badge&labelColor=07111A" alt="Agreement written before code"></a>
   <a href="https://github.com/andresanemic/vespi"><img src="https://img.shields.io/badge/built_with-Vespi_%C2%B7_Lore_Plugin-E0C170?style=for-the-badge&labelColor=07111A" alt="Built with Vespi and Lore Plugin"></a>
-  <a href="https://github.com/andresanemic/vespi/tree/ed559e83c976dd6e6a379a5510db776206f670b4"><img src="https://img.shields.io/badge/kernel-0.1.5_release-ed559e8?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.5 release (commit ed559e8)"></a>
+  <a href="https://github.com/andresanemic/vespi/tree/95f2d614f4492056c8bb2cd951f08d1089027d4f"><img src="https://img.shields.io/badge/kernel-0.1.6_pin-95f2d61?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.6 source pin (commit 95f2d61)"></a>
 </p>
 
 <p align="center"><b>Queen</b> — a budget proposal is often unclear: who asked, who could answer, what the price covers.<br>
@@ -137,15 +137,15 @@ ceiling · asset · destination             scope · conversation · answer
 
 ### Evidence you can open
 
-The supplied run of 2026-10-09 reports 45 tests, pass 45, fail 0, skipped 0, on Node v24.15.0, run in a clean clone with empty HOME and no network. Passing cases cover the complete request-to-proposal route, receipts and their declared coverage, simulated-payment disclosure, the pending external anchor, separate verification, local-chain auditing, reconstruction from receipts, rejection of an unauthorized speaker, the hard ceiling and idempotent formulation. The five adversarial RED cases and one control case were written and observed before implementation. Their names and scope are listed in [Evidence](./docs/EVIDENCE.md). The 2026-10-03 capture was red because the project was pinned to an old kernel cut (0.1.3); that re-pin to Vespi 0.1.5 (commit `ed559e8`) is done and verified in the new capture.
+The supplied run of 2026-10-09 reports 45 tests, pass 45, fail 0, skipped 0, on Node v24.15.0, run in a clean clone with empty HOME and no network. Passing cases cover the complete request-to-proposal route, receipts and their declared coverage, simulated-payment disclosure, the pending external anchor, separate verification, local-chain auditing, reconstruction from receipts, rejection of an unauthorized speaker, the hard ceiling and idempotent formulation. The five adversarial RED cases and one control case were written and observed before implementation. Their names and scope are listed in [Evidence](./docs/EVIDENCE.md). The 2026-10-03 capture was red because the project was pinned to an old kernel cut (0.1.3); that re-pin to Vespi 0.1.6 (commit `95f2d61`) is done and verified in the new capture.
 
-The kernel checks pass in the new capture: the suite verifies the copy vendored in `vendor/vespi-kernel` against its SOURCE.md (per-module digest and commit) for Vespi 0.1.5 (`ed559e83c976dd6e6a379a5510db776206f670b4`).
+The kernel checks pass in the new capture: the suite verifies the copy vendored in `vendor/vespi-kernel` against its SOURCE.md (per-module digest and commit) for Vespi 0.1.6 (`95f2d614f4492056c8bb2cd951f08d1089027d4f`).
 
 ### Queen, Vespi and Lore Plugin
 
 Lore Plugin supplies the project-routing and coordination setting described by Queen's agreement. Queen uses Vespi's kernel for bounded authority, operations, receipts, a human gate that shows the cost before the payment request, separate verification and continuation from receipts. Its conversation is implemented as a delegation, so a reply needs the right scope and a verifiable receipt. The agreement says Queen loads a vendored copy and fixes the kernel modules by digest. The earlier digest mismatches are recorded in [Evidence](./docs/EVIDENCE.md); the new capture shows the re-pinned kernel verifying.
 
-**What this relationship means.** The project was built with Lore Plugin's method (its agreement and criterion live in the project, in `acuerdo.md` and `lore/`), and its operations, authority and receipts run on the Vespi kernel 0.1.5, in the pinned copy that Lore Plugin 2.5.1 distributes (`skills/vespi/core/kernel`). That copy sits in the project as `vendor/vespi-kernel` and the suite verifies it against its `SOURCE.md`. Lore Plugin does not run inside the project. This project does not use the kernel's newer capabilities (Stellar pubnet anchors, live x402 settlement, the ZK verifier, emergency access); it exercises the core of operations, authority and receipts.
+**What this relationship means.** The project was built with Lore Plugin's method (its agreement and criterion live in the project, in `acuerdo.md` and `lore/`), and its operations, authority and receipts run on the Vespi kernel 0.1.6, in the pinned copy prepared for Lore Plugin 2.5.2 (`skills/vespi/core/kernel`). That copy sits in the project as `vendor/vespi-kernel` and the suite verifies it against its `SOURCE.md`. Lore Plugin does not run inside the project. This project does not use the kernel's newer capabilities (Stellar pubnet anchors, live x402 settlement, the ZK verifier, emergency access); it exercises the core of operations, authority and receipts.
 
 ### What it does not do, and what is not verified
 
@@ -171,6 +171,8 @@ Read the walkthrough, then compare the test record and limits with the project a
 <summary><b>Leer en español</b></summary>
 
 <a id="espanol"></a>
+
+<p align="center"><b>Funcionó.</b></p>
 
 **Queen formula un presupuesto solo después de que el proyecto contratante haya respondido en una conversación con recibo, y únicamente dentro de la autoridad que concedió una persona.**
 
@@ -281,15 +283,15 @@ techo · activo · destino                   alcance · conversación · respues
 
 ### Evidencia que puedes abrir
 
-La ejecución suministrada del 2026-10-09 informa 45 pruebas, 45 aprobadas, 0 fallan, 0 omitidas, en Node v24.15.0, corrida en un clon limpio con HOME vacío y sin red. Los casos aprobados cubren el recorrido completo desde el encargo hasta la propuesta, los recibos y su cobertura declarada, la declaración del pago simulado, el anclaje externo en pending, la verificación separada, la auditoría de la cadena local, la reconstrucción desde recibos, el rechazo de una voz no autorizada, el techo duro y la formulación idempotente. Los cinco casos adversariales RED y un caso de control se escribieron y observaron antes de la implementación. [Evidencia](./docs/EVIDENCE.md) enumera sus nombres y alcance. La captura del 2026-10-03 estaba en rojo porque el proyecto apuntaba a un corte viejo del kernel (0.1.3); esa nueva fijación a Vespi 0.1.5 (commit `ed559e8`) ya está hecha y verificada en la captura nueva.
+La ejecución suministrada del 2026-10-09 informa 45 pruebas, 45 aprobadas, 0 fallan, 0 omitidas, en Node v24.15.0, corrida en un clon limpio con HOME vacío y sin red. Los casos aprobados cubren el recorrido completo desde el encargo hasta la propuesta, los recibos y su cobertura declarada, la declaración del pago simulado, el anclaje externo en pending, la verificación separada, la auditoría de la cadena local, la reconstrucción desde recibos, el rechazo de una voz no autorizada, el techo duro y la formulación idempotente. Los cinco casos adversariales RED y un caso de control se escribieron y observaron antes de la implementación. [Evidencia](./docs/EVIDENCE.md) enumera sus nombres y alcance. La captura del 2026-10-03 estaba en rojo porque el proyecto apuntaba a un corte viejo del kernel (0.1.3); esa nueva fijación a Vespi 0.1.6 (commit `95f2d61`) ya está hecha y verificada en la captura nueva.
 
-Los controles del kernel pasan en la captura nueva: la suite verifica la copia vendorizada en `vendor/vespi-kernel` contra su SOURCE.md (digest por módulo y commit) para Vespi 0.1.5 (`ed559e83c976dd6e6a379a5510db776206f670b4`).
+Los controles del kernel pasan en la captura nueva: la suite verifica la copia vendorizada en `vendor/vespi-kernel` contra su SOURCE.md (digest por módulo y commit) para Vespi 0.1.6 (`95f2d614f4492056c8bb2cd951f08d1089027d4f`).
 
 ### Queen, Vespi y Lore Plugin
 
 Lore Plugin aporta el marco de enrutamiento entre proyectos y coordinación que describe el acuerdo de Queen. Queen usa el kernel de Vespi para la autoridad acotada, las operaciones, los recibos, una compuerta humana que muestra el costo antes de solicitar el pago, la verificación separada y la continuación desde recibos. La conversación de Queen se implementa como una delegación, por lo que la respuesta necesita el alcance correcto y un recibo verificable. El acuerdo dice que Queen carga una copia vendorizada y fija por digest los módulos del kernel. Los desajustes anteriores de digest quedaron registrados en [Evidencia](./docs/EVIDENCE.md); la captura nueva muestra el kernel con la fijación nueva verificado.
 
-**Qué significa esta relación.** El proyecto se construyó con el método de Lore Plugin (su acuerdo y su criterio viven en el proyecto, en `acuerdo.md` y `lore/`), y sus operaciones, autoridad y recibos corren sobre el kernel de Vespi 0.1.5, en la copia fijada que distribuye Lore Plugin 2.5.1 (`skills/vespi/core/kernel`). Esa copia está en el proyecto como `vendor/vespi-kernel` y la suite la verifica contra su `SOURCE.md`. Lore Plugin no corre dentro del proyecto. Este proyecto no usa las capacidades nuevas del kernel (anclas Stellar pubnet, liquidación x402 en vivo, el verificador ZK, el acceso de emergencia); ejerce el núcleo de operaciones, autoridad y recibos.
+**Qué significa esta relación.** El proyecto se construyó con el método de Lore Plugin (su acuerdo y su criterio viven en el proyecto, en `acuerdo.md` y `lore/`), y sus operaciones, autoridad y recibos corren sobre el kernel de Vespi 0.1.6, en la copia fijada para Lore Plugin 2.5.2 (`skills/vespi/core/kernel`). Esa copia está en el proyecto como `vendor/vespi-kernel` y la suite la verifica contra su `SOURCE.md`. Lore Plugin no corre dentro del proyecto. Este proyecto no usa las capacidades nuevas del kernel (anclas Stellar pubnet, liquidación x402 en vivo, el verificador ZK, el acceso de emergencia); ejerce el núcleo de operaciones, autoridad y recibos.
 
 ### Lo que no hace y lo que no está verificado
 

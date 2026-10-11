@@ -8,7 +8,7 @@ The source code is in this repository under the review-only license, so the suit
 
 ## Current suite: 45 pass
 
-The supplied `docs/suite-2026-10-09.txt` reports 45 tests, pass 45, fail 0, with none skipped or cancelled. It was run as `node --test test/*.test.js` in a clean clone with empty HOME and no network, on Node v24.15.0, against Vespi 0.1.5 (commit `ed559e8`) vendored in `vendor/vespi-kernel` and verified against its SOURCE.md. The 2026-10-03 capture was red because the project was pinned to the old 0.1.3 cut (`54c20c7`); that re-pin is done. Every row below passed in the 2026-10-09 capture.
+The supplied `docs/suite-2026-10-09.txt` reports 45 tests, pass 45, fail 0, with none skipped or cancelled. It was run as `node --test test/*.test.js` in a clean clone with empty HOME and no network, on Node v24.15.0, against Vespi 0.1.6 (commit `95f2d61`) vendored in `vendor/vespi-kernel` and verified against its SOURCE.md. The 2026-10-03 capture was red because the project was pinned to the old 0.1.3 cut (`54c20c7`); that re-pin is done. Every row below passed in the 2026-10-09 capture.
 
 | Evidence area | Test names in the supplied run | What they check |
 |---|---|---|
@@ -18,11 +18,11 @@ The supplied `docs/suite-2026-10-09.txt` reports 45 tests, pass 45, fail 0, with
 | Ceiling and payment gate | `un presupuesto sobre el techo vuelve bloqueado y nunca pide el dinero`; `el bloqueo del techo no lo levanta ni la contraparte que lo aprueba`; `el bloqueo nombra el numero que falta, no solo que falto`; `el bloqueo del techo lo sello el nucleo, con su digest`; `bajo el techo, la formula pasa y el pago se pide una sola vez por su monto`; `la puerta muestra el costo antes de pagarlo`; `un techo vencido no revive solo` | An over-ceiling amount blocks before payment, client approval cannot enlarge the mandate, blocks name the missing number, and the cost appears at the gate. |
 | Simulated settlement and verification | `el pago quedo declarado como simulado en el propio recibo, no solo en el informe`; `el anclaje queda en pending: no hay hash que buscar en ningun explorador`; `quien verifica no es quien ejecuta` | The receipt labels settlement simulated, leaves the external anchor pending and separates executor from verifier. |
 | Idempotence and continuity | `la doble formulacion se ve en el recorrido: el mismo encargo no dio dos precios`; `cerrar dos veces la misma conversacion devuelve el mismo recibo, no dos`; `formular dos veces paga una sola vez`; `el registro guarda una sola linea de propuesta, aunque se cierre tres veces`; `una tercera parte puede reponer el recorrido con solo los recibos`; `un tercero lee el recorrido entero sin Queen, y ve lo que se rechazo` | Repeating formulation or closing does not create another receipt, proposal line or payment, and another reader can inspect or resume the route. |
-| Kernel digest pins | Four passing entries logged as `<anonymous>` in `docs/suite-2026-10-09.txt` | The vendored Vespi 0.1.5 copy (commit `ed559e8`) verifies against its SOURCE.md (per-module digest and commit). |
+| Kernel digest pins | Four passing entries logged as `<anonymous>` in `docs/suite-2026-10-09.txt` | The vendored Vespi 0.1.6 copy (commit `95f2d61`) verifies against its SOURCE.md (per-module digest and commit). |
 
 ### Why the earlier capture was red
 
-On 2026-10-03 the loaded `continuity.js` digest no longer matched Queen's pin, Queen's digest differed from the kit's declaration, and the installed `opencode` copy was not the pinned file. Those three checks correctly reported the drift from the old cut. The project has since re-pinned to Vespi 0.1.5, and the 2026-10-09 capture shows every check passing.
+On 2026-10-03 the loaded `continuity.js` digest no longer matched Queen's pin, Queen's digest differed from the kit's declaration, and the installed `opencode` copy was not the pinned file. Those three checks correctly reported the drift from the old cut. The project has since re-pinned to Vespi 0.1.6, and the 2026-10-09 capture shows every check passing.
 
 ## What the adversarial phase found
 
@@ -52,7 +52,7 @@ El código fuente está en este repositorio bajo la licencia de solo revisión, 
 
 ## Suite actual: 45 aprobadas
 
-El archivo `docs/suite-2026-10-09.txt` informa 45 pruebas, 45 aprobadas, 0 fallan, 0 omitidas y ninguna cancelada. Se corrió con `node --test test/*.test.js` en un clon limpio con HOME vacío y sin red, en Node v24.15.0, contra Vespi 0.1.5 (commit `ed559e8`) copiado en `vendor/vespi-kernel` y verificado contra su SOURCE.md. La captura del 2026-10-03 estaba en rojo porque el proyecto apuntaba al corte viejo 0.1.3 (`54c20c7`); esa nueva fijación ya está hecha. Cada fila de abajo pasó en la captura del 2026-10-09.
+El archivo `docs/suite-2026-10-09.txt` informa 45 pruebas, 45 aprobadas, 0 fallan, 0 omitidas y ninguna cancelada. Se corrió con `node --test test/*.test.js` en un clon limpio con HOME vacío y sin red, en Node v24.15.0, contra Vespi 0.1.6 (commit `95f2d61`) copiado en `vendor/vespi-kernel` y verificado contra su SOURCE.md. La captura del 2026-10-03 estaba en rojo porque el proyecto apuntaba al corte viejo 0.1.3 (`54c20c7`); esa nueva fijación ya está hecha. Cada fila de abajo pasó en la captura del 2026-10-09.
 
 | Área de evidencia | Nombres de prueba en la ejecución suministrada | Qué comprueban |
 |---|---|---|
@@ -62,11 +62,11 @@ El archivo `docs/suite-2026-10-09.txt` informa 45 pruebas, 45 aprobadas, 0 falla
 | Techo y compuerta de pago | `un presupuesto sobre el techo vuelve bloqueado y nunca pide el dinero`; `el bloqueo del techo no lo levanta ni la contraparte que lo aprueba`; `el bloqueo nombra el numero que falta, no solo que falto`; `el bloqueo del techo lo sello el nucleo, con su digest`; `bajo el techo, la formula pasa y el pago se pide una sola vez por su monto`; `la puerta muestra el costo antes de pagarlo`; `un techo vencido no revive solo` | Un monto sobre el techo se bloquea antes del pago, el cliente no puede ampliar el mandato, los bloqueos nombran el número que falta y el costo se muestra en la compuerta. |
 | Liquidación simulada y verificación | `el pago quedo declarado como simulado en el propio recibo, no solo en el informe`; `el anclaje queda en pending: no hay hash que buscar en ningun explorador`; `quien verifica no es quien ejecuta` | El recibo etiqueta la liquidación como simulada, deja el anclaje externo en pending y separa a quien ejecuta de quien verifica. |
 | Idempotencia y continuidad | `la doble formulacion se ve en el recorrido: el mismo encargo no dio dos precios`; `cerrar dos veces la misma conversacion devuelve el mismo recibo, no dos`; `formular dos veces paga una sola vez`; `el registro guarda una sola linea de propuesta, aunque se cierre tres veces`; `una tercera parte puede reponer el recorrido con solo los recibos`; `un tercero lee el recorrido entero sin Queen, y ve lo que se rechazo` | Repetir la formulación o el cierre no crea otro recibo, línea de propuesta o pago, y otra persona puede revisar o reponer el recorrido. |
-| Fijaciones por digest del kernel | Cuatro entradas aprobadas registradas como `<anonymous>` en `docs/suite-2026-10-09.txt` | La copia vendorizada de Vespi 0.1.5 (commit `ed559e8`) verifica contra su SOURCE.md (digest por módulo y commit). |
+| Fijaciones por digest del kernel | Cuatro entradas aprobadas registradas como `<anonymous>` en `docs/suite-2026-10-09.txt` | La copia vendorizada de Vespi 0.1.6 (commit `95f2d61`) verifica contra su SOURCE.md (digest por módulo y commit). |
 
 ### Por qué la captura anterior estaba en rojo
 
-El 2026-10-03 el digest de `continuity.js` cargado ya no coincidía con la fijación de Queen, el digest de Queen difería de la declaración del kit y la copia instalada en `opencode` no era el archivo fijado. Esas tres comprobaciones informaron correctamente la deriva respecto del corte viejo. El proyecto fijó después Vespi 0.1.5, y la captura del 2026-10-09 muestra todas las comprobaciones aprobadas.
+El 2026-10-03 el digest de `continuity.js` cargado ya no coincidía con la fijación de Queen, el digest de Queen difería de la declaración del kit y la copia instalada en `opencode` no era el archivo fijado. Esas tres comprobaciones informaron correctamente la deriva respecto del corte viejo. El proyecto fijó después Vespi 0.1.6, y la captura del 2026-10-09 muestra todas las comprobaciones aprobadas.
 
 ## Qué encontró la fase adversarial
 
