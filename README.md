@@ -149,6 +149,9 @@ Lore Plugin supplies the project-routing and coordination setting described by Q
 
 ### What it does not do, and what is not verified
 
+Review status: this project has not been audited. The Vespi kernel it runs on has had superreviews with Claude Code and no independent external security audit.
+
+
 The payment settlement is simulated. There is no network call, real x402 settlement, blockchain write, Stellar testnet transaction, public transaction hash or completed external anchor; the receipt says `pending`. The project's agreement says the primary x402 specification was not read, so Queen makes no conformance claim. The names, destination and amounts in the walkthrough are fictional or synthetic. The hash-linked file can be replaced and its chain recomputed by someone who can rewrite the whole file. A verified receipt describes checks against supplied evidence; it does not prove a real-world payment, authorship or factual truth. The green suite accredits only what those tests cover; it does not establish production readiness, adoption or acceptance. [Legal and limits](./docs/LEGAL_AND_LIMITS.md) records the rest of the boundary.
 
 ### How to review this project
@@ -294,6 +297,9 @@ Lore Plugin aporta el marco de enrutamiento entre proyectos y coordinación que 
 **Qué significa esta relación.** El proyecto se construyó con el método de Lore Plugin (su acuerdo y su criterio viven en el proyecto, en `acuerdo.md` y `lore/`), y sus operaciones, autoridad y recibos corren sobre el kernel de Vespi 0.1.6, en la copia fijada para Lore Plugin 2.5.2 (`skills/vespi/core/kernel`). Esa copia está en el proyecto como `vendor/vespi-kernel` y la suite la verifica contra su `SOURCE.md`. Lore Plugin no corre dentro del proyecto. Este proyecto no usa las capacidades nuevas del kernel (anclas Stellar pubnet, liquidación x402 en vivo, el verificador ZK, el acceso de emergencia); ejerce el núcleo de operaciones, autoridad y recibos.
 
 ### Lo que no hace y lo que no está verificado
+
+Estado de revisión: este proyecto no ha sido auditado. El kernel de Vespi sobre el que corre ha tenido superreviews con Claude Code y ninguna auditoría de seguridad externa independiente.
+
 
 La liquidación del pago es simulada. No hay llamada de red, liquidación x402 real, escritura en blockchain, transacción en Stellar testnet, hash público de transacción ni anclaje externo completado; el recibo dice `pending`. El acuerdo del proyecto dice que no se leyó la especificación primaria de x402, así que Queen no afirma conformidad. Los nombres, el destino y los montos del recorrido son ficticios o sintéticos. Una persona que pueda reemplazar el archivo completo puede recalcular la cadena de huellas. Un recibo verificado describe comprobaciones sobre la evidencia suministrada; no prueba un pago real, autoría ni verdad factual. La suite en verde acredita solo lo que esas pruebas cubren; no demuestra que el proyecto esté listo para producción, que tenga adopción ni que haya sido aceptado. [Marco legal y límites](./docs/LEGAL_AND_LIMITS.md) registra las demás fronteras.
 
