@@ -25,10 +25,10 @@ const KERNEL = path.join(RAIZ, 'vendor', 'vespi-kernel');
 const MODULOS = ['authority.js', 'continuity.js', 'delegation.js', 'operation.js', 'receipt.js'];
 
 // El commit del corte, el que la cabecera de cada módulo nombra y el que `SOURCE.md` declara.
-// La cabecera lleva la forma corta de git, siete caracteres: `95f2d61` es el prefijo de
-// `95f2d614f4492056c8bb2cd951f08d1089027d4f`, el commit que `SOURCE.md` fija.
-const COMMIT = '95f2d61';
-const COMMIT_COMPLETO = '95f2d614f4492056c8bb2cd951f08d1089027d4f';
+// La cabecera lleva la forma corta de git, siete caracteres: `7767daa` es el prefijo de
+// `7767daa369e464b486ddf16b08b8985e59ec107d`, el commit que `SOURCE.md` fija.
+const COMMIT = '7767daa';
+const COMMIT_COMPLETO = '7767daa369e464b486ddf16b08b8985e59ec107d';
 
 // El corte fijado, leído de la tabla que la propia copia declara. Si la copia movió el corte,
 // esta constante queda vieja a propósito y la segunda prueba lo dice con nombre.
