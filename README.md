@@ -137,7 +137,7 @@ ceiling · asset · destination             scope · conversation · answer
 
 ### Evidence you can open
 
-The supplied run of 2026-10-09 reports 45 tests, pass 45, fail 0, skipped 0, on Node v24.15.0, run in a clean clone with empty HOME and no network. Passing cases cover the complete request-to-proposal route, receipts and their declared coverage, simulated-payment disclosure, the pending external anchor, separate verification, local-chain auditing, reconstruction from receipts, rejection of an unauthorized speaker, the hard ceiling and idempotent formulation. The five adversarial RED cases and one control case were written and observed before implementation. Their names and scope are listed in [Evidence](./docs/EVIDENCE.md). The 2026-10-03 capture was red because the project was pinned to an old kernel cut (0.1.3); that re-pin to Vespi 0.1.6 (commit `95f2d61`) is done and verified in the new capture.
+The supplied run of 2026-10-11 reports 45 tests, pass 45, fail 0, skipped 0, on Node v24.15.0, run in a clean clone with empty HOME and no network. Passing cases cover the complete request-to-proposal route, receipts and their declared coverage, simulated-payment disclosure, the pending external anchor, separate verification, local-chain auditing, reconstruction from receipts, rejection of an unauthorized speaker, the hard ceiling and idempotent formulation. The five adversarial RED cases and one control case were written and observed before implementation. Their names and scope are listed in [Evidence](./docs/EVIDENCE.md). The 2026-10-03 capture was red because the project was pinned to an old kernel cut (0.1.3); that re-pin to Vespi 0.1.6 (commit `95f2d61`) is done and verified in the new capture.
 
 The kernel checks pass in the new capture: the suite verifies the copy vendored in `vendor/vespi-kernel` against its SOURCE.md (per-module digest and commit) for Vespi 0.1.6 (`95f2d614f4492056c8bb2cd951f08d1089027d4f`).
 
@@ -153,7 +153,7 @@ The payment settlement is simulated. There is no network call, real x402 settlem
 
 ### How to review this project
 
-Read the walkthrough, then compare the test record and limits with the project agreement. The source is in this repository under the review-only license, which permits reading and cloning for evaluation. Run `npm test` on Node 24 from the project root and compare its output with [Evidence](./docs/EVIDENCE.md). The kernel re-pin is done, so a reviewer can expect a clean run against the vendored kernel and compare it with the reference `docs/suite-2026-10-09.txt`.
+Read the walkthrough, then compare the test record and limits with the project agreement. The source is in this repository under the review-only license, which permits reading and cloning for evaluation. Run `npm test` on Node 24 from the project root and compare its output with [Evidence](./docs/EVIDENCE.md). The kernel re-pin is done, so a reviewer can expect a clean run against the vendored kernel and compare it with the reference `docs/suite-2026-10-11.txt`.
 
 ### Author
 
@@ -283,7 +283,7 @@ techo · activo · destino                   alcance · conversación · respues
 
 ### Evidencia que puedes abrir
 
-La ejecución suministrada del 2026-10-09 informa 45 pruebas, 45 aprobadas, 0 fallan, 0 omitidas, en Node v24.15.0, corrida en un clon limpio con HOME vacío y sin red. Los casos aprobados cubren el recorrido completo desde el encargo hasta la propuesta, los recibos y su cobertura declarada, la declaración del pago simulado, el anclaje externo en pending, la verificación separada, la auditoría de la cadena local, la reconstrucción desde recibos, el rechazo de una voz no autorizada, el techo duro y la formulación idempotente. Los cinco casos adversariales RED y un caso de control se escribieron y observaron antes de la implementación. [Evidencia](./docs/EVIDENCE.md) enumera sus nombres y alcance. La captura del 2026-10-03 estaba en rojo porque el proyecto apuntaba a un corte viejo del kernel (0.1.3); esa nueva fijación a Vespi 0.1.6 (commit `95f2d61`) ya está hecha y verificada en la captura nueva.
+La ejecución suministrada del 2026-10-11 informa 45 pruebas, 45 aprobadas, 0 fallan, 0 omitidas, en Node v24.15.0, corrida en un clon limpio con HOME vacío y sin red. Los casos aprobados cubren el recorrido completo desde el encargo hasta la propuesta, los recibos y su cobertura declarada, la declaración del pago simulado, el anclaje externo en pending, la verificación separada, la auditoría de la cadena local, la reconstrucción desde recibos, el rechazo de una voz no autorizada, el techo duro y la formulación idempotente. Los cinco casos adversariales RED y un caso de control se escribieron y observaron antes de la implementación. [Evidencia](./docs/EVIDENCE.md) enumera sus nombres y alcance. La captura del 2026-10-03 estaba en rojo porque el proyecto apuntaba a un corte viejo del kernel (0.1.3); esa nueva fijación a Vespi 0.1.6 (commit `95f2d61`) ya está hecha y verificada en la captura nueva.
 
 Los controles del kernel pasan en la captura nueva: la suite verifica la copia vendorizada en `vendor/vespi-kernel` contra su SOURCE.md (digest por módulo y commit) para Vespi 0.1.6 (`95f2d614f4492056c8bb2cd951f08d1089027d4f`).
 
@@ -299,7 +299,7 @@ La liquidación del pago es simulada. No hay llamada de red, liquidación x402 r
 
 ### Cómo revisar este proyecto
 
-Lee el recorrido y compara después el registro de pruebas y los límites con el acuerdo. El código está en este repositorio bajo la licencia de solo revisión, que permite leerlo y clonarlo para evaluarlo. Ejecuta `npm test` con Node 24 desde la raíz del proyecto y compara su salida con [Evidencia](./docs/EVIDENCE.md). La nueva fijación del kernel ya está hecha, así que quien revise puede esperar una ejecución limpia frente al kernel vendorizado y compararla con la referencia `docs/suite-2026-10-09.txt`.
+Lee el recorrido y compara después el registro de pruebas y los límites con el acuerdo. El código está en este repositorio bajo la licencia de solo revisión, que permite leerlo y clonarlo para evaluarlo. Ejecuta `npm test` con Node 24 desde la raíz del proyecto y compara su salida con [Evidencia](./docs/EVIDENCE.md). La nueva fijación del kernel ya está hecha, así que quien revise puede esperar una ejecución limpia frente al kernel vendorizado y compararla con la referencia `docs/suite-2026-10-11.txt`.
 
 ### Autor
 

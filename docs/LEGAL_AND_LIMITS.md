@@ -16,7 +16,7 @@ The project material does not report a review of Queen by a qualified legal prof
 - The local hash-linked record does not prove who created or preserved it. A person who can replace the whole file can recompute its hashes.
 - No real client, project, budget, wallet destination, account identifier or ecosystem organization data appears in the example. Names and values are fictional or synthetic.
 - The run does not establish market demand, acceptance by a real customer, adoption or readiness for production.
-- The supplied suite of 2026-10-09 reports 45 passing tests out of 45, with none skipped. The suite verifies the vendored Vespi 0.1.6 copy against its SOURCE.md; the red 2026-10-03 capture, pinned to the old 0.1.3 cut, is superseded.
+- The supplied suite of 2026-10-11 reports 45 passing tests out of 45, with none skipped. The suite verifies the vendored Vespi 0.1.6 copy against its SOURCE.md; the red 2026-10-03 capture, pinned to the old 0.1.3 cut, is superseded.
 
 ## Questions left open
 
@@ -44,7 +44,7 @@ El material del proyecto no informa una revisión de Queen por parte de una pers
 - El registro local de huellas encadenadas no demuestra quién lo creó o conservó. Una persona que pueda reemplazar el archivo completo puede recalcular sus huellas.
 - El ejemplo no contiene datos de clientes, proyectos, presupuestos, destinos de billetera, identificadores de cuenta u organizaciones del ecosistema reales. Los nombres y valores son ficticios o sintéticos.
 - La ejecución no establece demanda de mercado, aceptación por un cliente real, adopción ni preparación para producción.
-- La suite suministrada del 2026-10-09 informa 45 pruebas aprobadas de 45, sin omitidas. La suite verifica la copia vendorizada de Vespi 0.1.6 contra su SOURCE.md; la captura en rojo del 2026-10-03, fijada al corte viejo 0.1.3, quedó superada.
+- La suite suministrada del 2026-10-11 informa 45 pruebas aprobadas de 45, sin omitidas. La suite verifica la copia vendorizada de Vespi 0.1.6 contra su SOURCE.md; la captura en rojo del 2026-10-03, fijada al corte viejo 0.1.3, quedó superada.
 
 ## Preguntas pendientes
 
