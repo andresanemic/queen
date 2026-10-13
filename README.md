@@ -30,6 +30,8 @@ npm run recorrido
 
 Node 24. `npm test` runs the suite; `npm run recorrido` replays the walkthrough. / Node 24. `npm test` ejecuta la suite; `npm run recorrido` repite el recorrido.
 
+These projects remain separate, runnable repositories. **Vespi Desktop** is the planned workspace for the kit and kernel, with **Hive as its creation studio**; this project is not yet integrated into an installable Desktop app. / Estos proyectos siguen siendo repositorios ejecutables por separado. **Vespi Desktop** será el espacio de trabajo del kit y el kernel, con **Hive como taller de creación**; este proyecto aún no está integrado en una app Desktop instalable.
+
 ---
 
 <details>
