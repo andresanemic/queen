@@ -45,6 +45,8 @@ These projects remain separate, runnable repositories. / Estos proyectos siguen 
 
 Queen is a fictional marketing-agency scenario for a narrower coordination problem. A project asks for a proposal, but an agent cannot safely fill the gaps from memory or accept whichever nearby voice replies. Queen opens a conversation with the commissioning project through Vespi, asks for what is missing, checks that the answer has a valid receipt and belongs to the right project and scope, and then formulates within a human-granted spending ceiling. The marketing agency is the setting. What the project demonstrates is coordination within authority. Its x402 payment layer checks and records a simulated payment request; settlement is not real.
 
+Meridian payment evidence is separate from Queen. The [Pollar payment demo in Vespi](https://github.com/andresanemic/vespi/tree/master/demo/pollar) records a real mainnet transfer and checks it against Horizon. Queen does not execute that transaction; it is separate from Queen's walkthrough and 45-test suite.
+
 ### Why
 
 A request for a budget can arrive with missing detail and no durable trail. If an agent guesses, the proposal may describe work nobody asked for. If a neighboring project or observer answers, their words may be mistaken for the commissioning project's authority. If the same request is formulated twice, a second price can appear beside the first. These are small handoffs with consequential ambiguity: who asked, who was allowed to answer, what the price covers, and who set the ceiling can disappear between a conversation and a quote.
@@ -184,6 +186,8 @@ Read the walkthrough, then compare the test record and limits with the project a
 > **La unidad es la conversación con recibo: sin una conversación abierta y leída con el proyecto que hizo el encargo, no hay propuesta.**
 
 Queen es un escenario ficticio de agencia de marketing para un problema más acotado de coordinación. Un proyecto pide una propuesta, pero un agente no puede completar con seguridad los vacíos de memoria ni aceptar la respuesta de cualquier voz cercana. Queen abre una conversación con el proyecto contratante a través de Vespi, pregunta lo que falta, comprueba que la respuesta tenga un recibo válido y corresponda al proyecto y al alcance correctos, y después formula dentro de un techo de gasto concedido por una persona. La agencia de marketing es el escenario. Lo que el proyecto muestra es coordinación dentro de la autoridad. Su capa de pago x402 comprueba y registra una solicitud de pago simulada; la liquidación no es real.
+
+La evidencia de pago de Meridian es independiente de Queen. La [demo de pago Pollar de Vespi](https://github.com/andresanemic/vespi/tree/master/demo/pollar) registra una transferencia real en mainnet y la contrasta con Horizon. Queen no ejecuta esa transacción; es independiente de su recorrido y de su suite de 45 pruebas.
 
 ### Por qué
 
