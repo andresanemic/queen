@@ -1,0 +1,58 @@
+Suite capture — queen — 2026-10-26
+Command: node --test test/*.test.js (clone of commit 1b847e8 with the kernel 0.1.8 re-pin applied, empty HOME)
+Node: v24.22.1 · Kernel: Vespi 0.1.8, commit 13dbe24310dab2a12eee26ad51dfdfddbff5458b (tag v0.1.8-kernel), copied in vendor/vespi-kernel
+Summary: tests 45 pass 45 fail 0 cancelled 0 skipped 0 todo 0 
+
+✔ el recorrido completo llega a la propuesta y la propuesta verifica (70.2417ms)
+✔ el total sale de las piezas de la respuesta, con precios de ejemplo (49.2779ms)
+✔ el recibo declara que cubrio y que no, y lo que no cubre incluye el anclaje externo (44.5656ms)
+✔ el pago quedo declarado como simulado en el propio recibo, no solo en el informe (42.8128ms)
+✔ el anclaje queda en pending: no hay hash que buscar en ningun explorador (41.2113ms)
+✔ quien verifica no es quien ejecuta (32.8067ms)
+✔ la cadena del registro se puede auditar y esta entera (33.6844ms)
+✔ un tercero lee el recorrido entero sin Queen, y ve lo que se rechazo (33.7737ms)
+✔ una tercera parte puede reponer el recorrido con solo los recibos (29.3137ms)
+✔ la doble formulacion se ve en el recorrido: el mismo encargo no dio dos precios (31.3585ms)
+✔ <anonymous> (3.1009ms)
+✔ <anonymous> (2.1421ms)
+✔ <anonymous> (2.5524ms)
+✔ <anonymous> (11.3521ms)
+✔ un encargo sin conversacion abierta vuelve bloqueado, con su salida y sin presupuesto (23.3495ms)
+✔ el bloqueo lo sello el nucleo y su digest verifica (12.8057ms)
+✔ el bloqueo nombra a la persona que puede resolverlo, no a un agente (12.4402ms)
+✔ una conversacion abierta que la contraparte nunca leyó tampoco alcanza (14.769ms)
+✔ el registro deja escrito que se pidio y por que no se formulo (14.0936ms)
+✔ la cadena del registro aguanta el bloqueo entero (15.2021ms)
+✔ un proyecto que no contrato el encargo no puede responderlo (23.9046ms)
+✔ la contraparte correcta tampoco puede responder un encargo que no es el suyo (17.049ms)
+✔ el rechazo queda escrito, y un tercero lo lee sin Queen (20.5368ms)
+✔ con la respuesta ajena rechazada, la conversacion no cierra y nada se formula (25.1273ms)
+✔ la misma respuesta, ahora con recibo y de la contraparte, si pasa (15.71ms)
+✔ los precios del recorrido son de ejemplo y el recargo de la contraparte no se inventa solo (35.4639ms)
+✔ un presupuesto sobre el techo vuelve bloqueado y nunca pide el dinero (27.8999ms)
+✔ el bloqueo del techo no lo levanta ni la contraparte que lo aprueba (23.7046ms)
+✔ el bloqueo nombra el numero que falta, no solo que falto (18.8409ms)
+✔ el bloqueo del techo lo sello el nucleo, con su digest (18.3635ms)
+✔ bajo el techo, la formula pasa y el pago se pide una sola vez por su monto (33.3349ms)
+✔ la puerta muestra el costo antes de pagarlo (28.7901ms)
+✔ un techo vencido no revive solo (15.7229ms)
+✔ cerrar dos veces la misma conversacion devuelve el mismo recibo, no dos (44.3553ms)
+✔ formular dos veces paga una sola vez (31.5754ms)
+✔ el registro guarda una sola linea de propuesta, aunque se cierre tres veces (33.1826ms)
+✔ el total sale de la tabla de precios, no del camino que se tomo (30.2346ms)
+✔ la huella de la propuesta no depende de la hora: dos corridas dan la misma (52.5409ms)
+✔ cambiar una cantidad cambia la huella: no es la misma propuesta (41.9805ms)
+✔ otro encargo es otra propuesta, y si se agrega a su propio registro (44.6861ms)
+✔ una respuesta sin recibo no es respuesta, por buena que sea (20.642ms)
+✔ un recibo editado despues de escrito no verifica, y la respuesta se cae (2.397ms)
+✔ una respuesta con el recibo que no es suyo no avanza la conversacion (15.8503ms)
+✔ un tercero que habla en la conversacion queda como tercero, y no como contraparte (21.1834ms)
+✔ el total sale de la respuesta aceptada, y el dato del tercero no se colo (46.7795ms)
+ℹ tests 45
+ℹ suites 0
+ℹ pass 45
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 540.594

@@ -9,8 +9,8 @@
   <a href="./docs/EVIDENCE.md"><img src="https://img.shields.io/badge/suite-45_of_45_pass-D7B698?style=for-the-badge&labelColor=07111A" alt="Suite: 45 of 45 tests pass"></a>
   <a href="#english"><img src="https://img.shields.io/badge/agreement-written_before_code-E0C170?style=for-the-badge&labelColor=07111A" alt="Agreement written before code"></a>
   <a href="https://github.com/andresanemic/vespi"><img src="https://img.shields.io/badge/built_with-Vespi_%C2%B7_Lore_Plugin-E0C170?style=for-the-badge&labelColor=07111A" alt="Built with Vespi and Lore Plugin"></a>
-  <a href="./data/traffic/source-2026-10-13.json"><img src="https://img.shields.io/badge/clones-277_in_14_days-E0C170?style=for-the-badge&labelColor=07111A" alt="queen: 277 GitHub clone events, 2026-09-29 to 2026-10-12 UTC"></a>
-  <a href="https://github.com/andresanemic/vespi/tree/39d45733839d0a05f60248fc6e5b81c892c464f8"><img src="https://img.shields.io/badge/kernel-0.1.6_pin-39d4573?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.6 source pin (commit 39d4573)"></a>
+  <a href="./data/traffic/clones.json"><img src="https://img.shields.io/badge/clones-357_in_27_days-E0C170?style=for-the-badge&labelColor=07111A" alt="queen: 357 GitHub clone events, 2026-09-29 to 2026-10-25 UTC (clones, not unique people)"></a>
+  <a href="https://github.com/andresanemic/vespi/tree/13dbe24310dab2a12eee26ad51dfdfddbff5458b"><img src="https://img.shields.io/badge/kernel-0.1.8_pin-13dbe24?style=for-the-badge&labelColor=07111A&color=E0C170" alt="Kernel: 0.1.8 source pin (commit 13dbe24)"></a>
 </p>
 
 <p align="center"><b>Queen</b> — a budget proposal is often unclear: who asked, who could answer, what the price covers.<br>
@@ -38,6 +38,8 @@ These projects remain separate, runnable repositories. / Estos proyectos siguen 
 <summary><b>Read in English</b></summary>
 
 <a id="english"></a>
+
+> **Kernel re-pin, 26 Oct 2026.** This project now vendors Vespi kernel **0.1.8** (release `v0.1.8-kernel`, commit `13dbe24`). Suite: 45 of 45 pass in [`docs/suite-2026-10-26.txt`](./docs/suite-2026-10-26.txt). Mentions of 0.1.6 below describe the 2026-10-11 capture.
 
 **Queen makes a budget proposal only after the commissioning project has answered through a receipted conversation, and only within the authority a person granted.**
 
@@ -149,7 +151,7 @@ The kernel checks pass in the new capture: the suite verifies the copy vendored 
 
 Lore Plugin supplies the project-routing and coordination setting described by Queen's agreement. Queen uses Vespi's kernel for bounded authority, operations, receipts, a human gate that shows the cost before the payment request, separate verification and continuation from receipts. Its conversation is implemented as a delegation, so a reply needs the right scope and a verifiable receipt. The agreement says Queen loads a vendored copy and fixes the kernel modules by digest. The earlier digest mismatches are recorded in [Evidence](./docs/EVIDENCE.md); the new capture shows the re-pinned kernel verifying.
 
-**What this relationship means.** The project was built with Lore Plugin's method (its agreement and criterion live in the project, in `acuerdo.md` and `lore/`), and its operations, authority and receipts run on the Vespi kernel 0.1.6, in the pinned copy prepared for Lore Plugin 2.5.2 (`skills/vespi/core/kernel`). That copy sits in the project as `vendor/vespi-kernel` and the suite verifies it against its `SOURCE.md`. Lore Plugin does not run inside the project. This project does not use the kernel's newer capabilities (Stellar pubnet anchors, live x402 settlement, the ZK verifier, emergency access); it exercises the core of operations, authority and receipts.
+**What this relationship means.** The project was built with Lore Plugin's method (its agreement and criterion live in the project, in `acuerdo.md` and `lore/`), and its operations, authority and receipts run on the Vespi kernel 0.1.8, in the pinned copy of the `v0.1.8-kernel` release (`vendor/vespi-kernel`, commit `13dbe24`). That copy sits in the project as `vendor/vespi-kernel` and the suite verifies it against its `SOURCE.md`. Lore Plugin does not run inside the project. This project does not use the kernel's newer capabilities (Stellar pubnet anchors, live x402 settlement, the ZK verifier, emergency access); it exercises the core of operations, authority and receipts.
 
 ### What it does not do, and what is not verified
 
@@ -178,6 +180,8 @@ Read the walkthrough, then compare the test record and limits with the project a
 <summary><b>Leer en español</b></summary>
 
 <a id="espanol"></a>
+
+> **Nueva fijación del kernel, 26 oct. 2026.** Este proyecto ahora vendoriza el kernel de Vespi **0.1.8** (release `v0.1.8-kernel`, commit `13dbe24`). Suite: 45 de 45 aprobadas en [`docs/suite-2026-10-26.txt`](./docs/suite-2026-10-26.txt). Las menciones a 0.1.6 más abajo describen la captura del 2026-10-11.
 
 <p align="center"><b>Funcionó.</b></p>
 
@@ -300,7 +304,7 @@ Los controles del kernel pasan en la captura nueva: la suite verifica la copia v
 
 Lore Plugin aporta el marco de enrutamiento entre proyectos y coordinación que describe el acuerdo de Queen. Queen usa el kernel de Vespi para la autoridad acotada, las operaciones, los recibos, una compuerta humana que muestra el costo antes de solicitar el pago, la verificación separada y la continuación desde recibos. La conversación de Queen se implementa como una delegación, por lo que la respuesta necesita el alcance correcto y un recibo verificable. El acuerdo dice que Queen carga una copia vendorizada y fija por digest los módulos del kernel. Los desajustes anteriores de digest quedaron registrados en [Evidencia](./docs/EVIDENCE.md); la captura nueva muestra el kernel con la fijación nueva verificado.
 
-**Qué significa esta relación.** El proyecto se construyó con el método de Lore Plugin (su acuerdo y su criterio viven en el proyecto, en `acuerdo.md` y `lore/`), y sus operaciones, autoridad y recibos corren sobre el kernel de Vespi 0.1.6, en la copia fijada para Lore Plugin 2.5.2 (`skills/vespi/core/kernel`). Esa copia está en el proyecto como `vendor/vespi-kernel` y la suite la verifica contra su `SOURCE.md`. Lore Plugin no corre dentro del proyecto. Este proyecto no usa las capacidades nuevas del kernel (anclas Stellar pubnet, liquidación x402 en vivo, el verificador ZK, el acceso de emergencia); ejerce el núcleo de operaciones, autoridad y recibos.
+**Qué significa esta relación.** El proyecto se construyó con el método de Lore Plugin (su acuerdo y su criterio viven en el proyecto, en `acuerdo.md` y `lore/`), y sus operaciones, autoridad y recibos corren sobre el kernel de Vespi 0.1.8, en la copia fijada del release `v0.1.8-kernel` (`vendor/vespi-kernel`, commit `13dbe24`). Esa copia está en el proyecto como `vendor/vespi-kernel` y la suite la verifica contra su `SOURCE.md`. Lore Plugin no corre dentro del proyecto. Este proyecto no usa las capacidades nuevas del kernel (anclas Stellar pubnet, liquidación x402 en vivo, el verificador ZK, el acceso de emergencia); ejerce el núcleo de operaciones, autoridad y recibos.
 
 ### Lo que no hace y lo que no está verificado
 

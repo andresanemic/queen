@@ -15,7 +15,7 @@
 //               queda en `pending`.
 //   NO VERIFICADO — la especificación de x402. No se leyó el texto primario en esta tanda, así
 //               que este proyecto no nombra la norma, no cita la especificación y no afirma
-//               conformidad: el kernel 0.1.6 incluye el módulo x402, pero este proyecto solo simula el asentamiento y no afirma conformidad.
+//               conformidad: el kernel 0.1.8 incluye el módulo x402, pero este proyecto solo simula el asentamiento y no afirma conformidad.
 //
 // La autoridad con la que corre la operación **no se autoinvoca**: `spend` va vacío, así que el
 // núcleo no alcanza a cubrir el gasto y abre la puerta. La persona que lo autoriza no es el

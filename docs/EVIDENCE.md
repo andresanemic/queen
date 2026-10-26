@@ -1,5 +1,7 @@
 # Evidence and current test status
 
+> **2026-10-26:** re-pinned to Vespi kernel 0.1.8 (release `v0.1.8-kernel`, commit `13dbe24`); [`suite-2026-10-26.txt`](./suite-2026-10-26.txt) reports 45 of 45 pass. The records below describe the 2026-10-11 capture. · **26 oct. 2026:** nueva fijación al kernel de Vespi 0.1.8; 45 de 45 aprobadas. Los registros de abajo describen la captura del 2026-10-11.
+
 ## Evidence available to a reader
 
 The project material includes a captured terminal walkthrough and JSONL records, a test run captured on 2026-10-11 (`docs/suite-2026-10-11.txt`), which supersedes the 2026-10-03 capture that was red, and a RED log dated 2026-09-29 that predates the implementation. The walkthrough uses fictional entities and synthetic values. It is not a record of a real client, payment, Stellar transaction or external service.
