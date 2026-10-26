@@ -16,7 +16,7 @@
 <p align="center"><b>Queen</b> — a budget proposal is often unclear: who asked, who could answer, what the price covers.<br>
 The brief and the approved limits travel with the proposal. Evidence: 45/45 tests. Fictional clients and campaigns.</p>
 
-<p align="center"><b>We submitted Vespi to the Find Your Way hackathon and plan to participate in Meridian.</b></p>
+<p align="center"><b>Part of Vespi's HackMeridian 2026 submission, as evidence of what Vespi and Lore Plugin let a person build.</b></p>
 <p align="center"><b>For judges:</b> <a href="./docs/HOW_IT_WORKS.md">How it works</a> · <a href="./docs/EVIDENCE.md">Evidence</a> · <a href="./docs/LEGAL_AND_LIMITS.md">Limits</a> · <a href="./LICENSE">Review-only license</a>.<br>The source is in this repository: run <code>npm test</code> on Node 24.</p>
 
 **Run it / Córrelo**
